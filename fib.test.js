@@ -4,7 +4,6 @@ test('fibonacci for 0 returns empty array', () => {
   expect(fib(0)).toEqual([]);
 });
 
-
 test('fibonacci for 1 returns [0]', () => {
   expect(fib(1)).toEqual([0]);
 });
